@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">AndroidPatternDesignMVP</string>
+    <string name="app_name">MVP</string>
+    <string name="button_text">Click me</string>
 </resources>
