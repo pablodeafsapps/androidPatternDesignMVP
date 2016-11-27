@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">MVP</string>
-    <string name="button_text">Click me</string>
+    <string name="btn_bottom_text">Click me</string>
+    <string name="tv_info_text">\"Hello World!\"</string>
+    <string name="edt_hint_text">Write something...</string>
+    <string name="btn_ok_text">Ok</string>
+    <string name="tv_default_state_text">[nothing to be shown]</string>
+    <string name="btn_display_retrieved_info_text">Display info</string>
+    <string name="btn_start_activity_text">Start new Activity</string>
 </resources>

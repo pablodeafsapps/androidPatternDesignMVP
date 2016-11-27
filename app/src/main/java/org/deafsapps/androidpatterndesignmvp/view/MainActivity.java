@@ -1,7 +1,9 @@
-package org.deafsapps.androidpatterndesignmvp;
+package org.deafsapps.androidpatterndesignmvp.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import org.deafsapps.androidpatterndesignmvp.R;
 
 public class MainActivity extends AppCompatActivity {
 
