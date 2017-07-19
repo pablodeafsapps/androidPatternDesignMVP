@@ -51,7 +51,7 @@ public class ModelModule {
 	 */
 	@Provides
 	@Singleton
-	Repository provideSharedPreferencesHelper() {
-		return new SharedPreferencesHelper();
+	Repository provideSharedPreferencesHelper(SharedPreferences sharedPreferences) {
+		return new SharedPreferencesHelper(sharedPreferences);
 	}
 }

@@ -21,7 +21,6 @@ import javax.inject.Singleton;
 @Singleton
 public class SharedPreferencesHelper implements Repository {
 
-	@Inject
 	SharedPreferences preferences;
 
 	/**
@@ -29,7 +28,9 @@ public class SharedPreferencesHelper implements Repository {
 	 * parameter dependencies when the class is being constructed.
 	 */
 	@Inject
-	public SharedPreferencesHelper() {}
+	public SharedPreferencesHelper(SharedPreferences sharedPreferences) {
+		this.preferences = sharedPreferences;
+	}
 
 	@Override
 	public void add(ReturnData returnData, String preferenceKey) {
