@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layoutMain"
     android:layout_width="match_parent"
@@ -11,28 +12,28 @@
     tools:context="org.deafsapps.androidpatterndesignmvp.view.MainActivity">
 
     <Button
-        android:id="@+id/btnStartAct"
+        android:id="@+id/btn_start_act_main_activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/btn_start_activity_text" />
+        android:text="@string/btn_start_activity_text"/>
 
     <Button
-        android:id="@+id/btnDispInfo"
+        android:id="@+id/btn_disp_info_main_activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btnStartAct"
+        android:layout_above="@+id/btn_start_act_main_activity"
         android:layout_centerHorizontal="true"
-        android:text="@string/btn_display_retrieved_info_text" />
+        android:text="@string/btn_display_retrieved_info_text"/>
 
     <TextView
-        android:id="@+id/txtViewDispInfo"
+        android:id="@+id/tv_display_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:gravity="center"
         android:text="@string/tv_default_state_text"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
 </RelativeLayout>

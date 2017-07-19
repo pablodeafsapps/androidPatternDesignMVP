@@ -10,7 +10,7 @@
     tools:context="org.deafsapps.androidpatterndesignmvp.view.SecondActivity">
 
     <EditText
-        android:id="@+id/edt_info_to_return"
+        android:id="@+id/et_info_to_return"
         android:layout_width="@dimen/edt_width"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_toEndOf="@+id/edt_info_to_return"
-        android:layout_toRightOf="@+id/edt_info_to_return"
+        android:layout_toEndOf="@+id/et_info_to_return"
+        android:layout_toRightOf="@+id/et_info_to_return"
         android:text="@string/btn_ok_text" />
 </RelativeLayout>
