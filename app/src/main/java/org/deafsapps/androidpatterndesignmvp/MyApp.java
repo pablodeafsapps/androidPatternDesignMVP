@@ -7,7 +7,11 @@ import org.deafsapps.androidpatterndesignmvp.di.ModelComponent;
 import org.deafsapps.androidpatterndesignmvp.di.ModelModule;
 
 /**
- * Created by psor1i on 18-Jul-17.
+ * This class extends from {@link Application}, and allows to configure general aspects of the app.
+ * In this particular case, it is employed to set up Dagger2 for dependency injection.
+ *
+ * @author psor1i
+ * @since 1.0
  */
 public class MyApp extends Application {
 

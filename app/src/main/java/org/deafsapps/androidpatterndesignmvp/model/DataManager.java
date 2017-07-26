@@ -18,21 +18,17 @@ import javax.inject.Singleton;
 public class DataManager {
 
 	public static final String RETURN_TEXT_KEY = "RETURN_TEXT_KEY";
-	private static final String TAG = DataManager.class.getSimpleName();
 
 	@Inject
 	Repository prefsHelper;
 
-	private static DataManager dataManager;
+	private static DataManager dataManager = new DataManager();
 
 	private DataManager() {
 		MyApp.app().getModelComponent().injectDependency(this);
 	}
 
 	public static DataManager getInstance() {
-		if (DataManager.dataManager == null) {
-			DataManager.dataManager = new DataManager();
-		}
 		return DataManager.dataManager;
 	}
 
